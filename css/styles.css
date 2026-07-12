@@ -1,0 +1,19 @@
+:root{
+    --main-font: "Roboto", sans-serif;
+    --navy: #1F2937;
+    --blue: #3882F6;
+    --light-grey: #E5E7EB;
+    --white: #F9FAF8;
+    --fsz-48: 48px;
+    --fsz-36: 36px;
+    --fsz-24: 24px;
+    --fsz-18: 18px;
+    --fw-900: 900;
+    --fw-300: 300;
+}
+
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
