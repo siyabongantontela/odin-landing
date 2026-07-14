@@ -150,3 +150,23 @@ nav ul li a{
     border: 4px solid var(--blue);
     border-radius: 16px;
 }
+
+.quote_section{
+    background-color: var(--light-grey);     
+}
+
+.legendary_quote{
+    padding: 64px 0;
+    width: 780px;
+}
+
+.legendary_quote blockquote {
+    font-size: var(--fsz-36);
+    font-weight: var(--fw-300);
+    color: var(--navy);
+}
+
+.quote{
+    display: flex;
+    justify-content: center;
+}
