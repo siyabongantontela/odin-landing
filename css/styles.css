@@ -115,7 +115,7 @@ nav ul li a{
 }
 
 .random_info{
-    padding: 32px 0 64px;
+    padding: 32px 0 94px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,8 +156,8 @@ nav ul li a{
 }
 
 .legendary_quote{
-    padding: 64px 0;
-    width: 780px;
+    padding: 94px 0;
+    width: 800px;
 }
 
 .legendary_quote blockquote {
@@ -170,3 +170,41 @@ nav ul li a{
     display: flex;
     justify-content: center;
 }
+
+.god_of_thunder{
+    font-weight: var(--fw-900);
+    position: relative;
+    left: 600px;
+}
+
+.god_of_thunder::before{
+    content: '-';
+}
+
+.last_container{
+    padding: 94px 0;
+}
+
+.call_to_action{
+    display: flex;
+    padding: 52px 120px;
+    justify-content: space-between;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 8px;
+}
+
+.call_to_action button{
+    border: 2px var(--white) solid;
+    padding: 8px 28px;
+}
+
+.call_to_action_text p{
+    color: var(--light-grey)
+}
+
+footer{
+    padding: 48px 0;
+    color: var(--white);
+}
+
